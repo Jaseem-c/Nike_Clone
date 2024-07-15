@@ -1,0 +1,33 @@
+.dropup-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropup-list {
+    display: none;
+    position: absolute;
+    bottom: calc(100% ); /* Position above the trigger with 5px spacing */
+    left: 0;
+    background-color: white;
+   
+    box-shadow: 0px -8px 16px rgba(0, 0, 0, 0.1); /* Box shadow adjusted for drop-up effect */
+    z-index: 1;
+    min-width: 150px; /* Adjust the min-width as needed */
+  }
+  
+  .dropup-container:hover .dropup-list {
+    display: block;
+  }
+  
+  .dropup-item {
+    padding: 8px 16px;
+    cursor: pointer;
+    width: 100%; /* Make items take full width of dropup-list */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .dropup-item:hover {
+    background-color: #f1f1f1;
+  }
+  

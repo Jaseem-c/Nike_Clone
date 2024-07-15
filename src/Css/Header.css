@@ -1,0 +1,83 @@
+/* HoverComponent.css */
+.hover-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hover-target {
+    cursor: pointer;
+  }
+  
+  .hover-div {
+    position: absolute;
+    top: calc(60px);  /* Position below the h5 element with a 60px margin */
+    padding: 5px;
+    right: 150px;
+    background-color: white;
+    z-index: 1;
+    display: inline-block;
+    width: max-content; /* Adjust as needed */
+  }
+
+  .hover-div2{
+    position: absolute;
+    top: calc(60px);  /* Position below the h5 element with a 5px margin */
+    padding: 5px;
+    right: 50px;
+    background-color: white;
+    z-index: 1;
+    display: inline-block;
+    width: max-content; /* Adjust as needed */
+  }
+.navsection2 .navlink:hover{
+  text-decoration: underline;
+  /* border-bottom:  solid black; */
+
+}
+.navbutton:hover{
+background-color: lightgray;
+}
+.container-input {
+  position: relative;
+}
+
+.input {
+  width: 180px;
+  padding: 5px 0px 10px 50px;
+  border-radius: 9999px;
+  border: solid 1px #333;
+  transition: all .2s ease-in-out;
+  outline: none;
+  opacity: 0.8;
+}
+
+.container-input button {
+  position: absolute;
+  top: 50%;
+  left: 1px;
+  transform: translate(0, -50%);
+  background: white;
+  border: transparent;
+  cursor: pointer;
+  width: 40px;
+  height: 97%;
+   border-radius: 50%;
+}
+.container-input button:hover{
+  background-color: lightgrey;
+}
+
+/*  */
+.overlay {
+  position: absolute;
+  top: 120px; /* Adjust based on your navbar height */
+  left: 0;
+  right: 0;
+  background-color:white; /* Adjust background as needed */
+  z-index: 1000;
+  padding: 20px; /* Adjust padding as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

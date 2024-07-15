@@ -1,0 +1,7 @@
+.row {
+    overflow-x: hidden; /* Hide horizontal overflow by default */
+}
+
+.row:hover {
+    overflow-x: auto; /* Show horizontal scrollbar on hover */
+}
