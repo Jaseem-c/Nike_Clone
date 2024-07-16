@@ -44,7 +44,7 @@ function Header() {
                 <Container fluid>
                     <Navbar.Brand href="#">
                         <img
-                            src="/src/assets/Jordan Logo.png"
+                            src="https://cdn.worldvectorlogo.com/logos/jordan-2.svg"
                             width="20"
                             height="20"
                             className="d-inline-block "
@@ -104,48 +104,13 @@ function Header() {
             </Navbar>
 
             {/* section2 */}
-            {/* <Navbar collapseOnSelect expand="lg" className="bg-transparent  px-5 navsection2">
-                <Container fluid>
-                    <Navbar.Brand href="#home"><img
-                        src="/src/assets/Nike Logo.png"
-                        width="60"
-                        height="60"
-                        className="d-inline-block "
-                        alt="React Bootstrap logo"
-                    /></Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="ms-auto me-0">
-                            <Navbar.Text href="#features" className='text-dark fw-bold me-3 navlink'>New & Featured</Navbar.Text>
-                            <Navbar.Text href="#features" className='text-dark fw-bold me-3 navlink'>Men</Navbar.Text>
-                            <Navbar.Text href="#features" className='text-dark fw-bold me-3 navlink'>Women</Navbar.Text>
-                            <Navbar.Text href="#features" className='text-dark fw-bold me-3 navlink'>Kids</Navbar.Text>
-                            <Navbar.Text href="#features" className='text-dark fw-bold me-3 navlink'>Sale</Navbar.Text>
-                            <Navbar.Text href="#features" className='text-dark fw-bold me-3 navlink'>Customize</Navbar.Text>
-                            <Navbar.Text href="#features" className='text-dark fw-bold me-3 navlink'>SNKRS</Navbar.Text>
-                        </Nav>
-                        <Nav className="ms-auto">
-                            <div className="container-input me-2 ">
-                                <input type="text" placeholder="Search" name="text" className="input bg-body-tertiary" />
-                                <button type="submit" className="search-button bg-body-light">
-                                    <svg fill="#000000" width="20px" height="20px" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M790.588 1468.235c-373.722 0-677.647-303.924-677.647-677.647 0-373.722 303.925-677.647 677.647-677.647 373.723 0 677.647 303.925 677.647 677.647 0 373.723-303.924 677.647-677.647 677.647Zm596.781-160.715c120.396-138.692 193.807-319.285 193.807-516.932C1581.176 354.748 1226.428 0 790.588 0S0 354.748 0 790.588s354.748 790.588 790.588 790.588c197.647 0 378.24-73.411 516.932-193.807l516.028 516.142 79.963-79.963-516.142-516.028Z" fill-rule="evenodd"></path>
-                                    </svg>
-                                </button>
-                            </div>
-                            <div style={{ width: "35px", height: "35px", borderRadius: "50%" }} className=' d-flex align-items-center justify-content-center navbutton'>  <button className='btn btn-transparent'><img src={heart} alt="" width={"20px"} /></button></div>
-                            <div style={{ width: "35px", height: "35px", borderRadius: "50%" }} className=' d-flex align-items-center justify-content-center navbutton'>  <button className='btn btn-transparent'><img src={bag} alt="" width={"20px"} /></button></div>
-
-                        </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar> */}
+          
             <div>
                 <Navbar collapseOnSelect expand="lg" className="bg-transparent px-5 navsection2">
                     <Container fluid>
                         <Navbar.Brand href="#home">
                             <img
-                                src="/src/assets/Nike Logo.png"
+                                src="https://www.svgrepo.com/show/303214/nike-4-logo.svg"
                                 width="60"
                                 height="60"
                                 className="d-inline-block"
